@@ -1,0 +1,16 @@
+{
+  "name": "godot-version-selector",
+  "version": "1.0.0",
+  "description": "scans your dev dir for godot versions and let you select them",
+  "main": "./godot-version.js",
+  "scripts": {
+    "start": "node godot-version.js"
+  },
+  "author": "mago",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.4",
+    "open": "^6.4.0",
+    "prompts": "^2.2.1"
+  }
+}
